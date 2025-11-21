@@ -74,4 +74,104 @@ We start by importing python packages such as: numpy and pandas
 4. The second witness confirmed the killer is indeed a gym member and checked in at the gym on January 9.
 
 
+Let us view the layout of the Get Fit Now Member table.
+
+
+<img width="598" height="126" alt="Screenshot 2025-11-21 at 14 50 08" src="https://github.com/user-attachments/assets/3567a488-63ed-4c19-8b3d-9c08c4f5e1d6" />
+
+<img width="531" height="133" alt="Screenshot 2025-11-21 at 15 05 36" src="https://github.com/user-attachments/assets/b573b846-4ae0-41c4-b1ae-641ee79db37f" />
+
+
+- Since we know that the membership id of the suspect starts with "48Z", we can check for members whose membership ids start with 48Z and have a gold membership status.
+
+<img width="606" height="139" alt="Screenshot 2025-11-21 at 15 10 33" src="https://github.com/user-attachments/assets/efdc4144-370a-4f09-a042-bb23408cf4ef" />
+
+<img width="504" height="67" alt="Screenshot 2025-11-21 at 15 12 00" src="https://github.com/user-attachments/assets/2e329bd7-2ea1-45fc-b721-f5a858eb8df8" />
+
+
+- We have two leads; Joe Germuska and Jeremy Bowers. so now we need to find out which of them checked in at the gym on January 9.
+
+
+<img width="605" height="141" alt="Screenshot 2025-11-21 at 15 18 27" src="https://github.com/user-attachments/assets/0ce8e653-eb76-46d9-abc9-257cfb4956d0" />
+
+
+<img width="526" height="135" alt="Screenshot 2025-11-21 at 14 51 07" src="https://github.com/user-attachments/assets/00922340-752b-4a91-b62a-d81ce4ccea2b" />
+
+
+OOPS! Both suspects checked-in on the 9th of January!
+
+So, since we have another information about the suspect, being his plate number, let us find out which of the suspects have a plate number that has the characters: 'H42W'
+
+
+<img width="600" height="124" alt="Screenshot 2025-11-21 at 23 01 21" src="https://github.com/user-attachments/assets/6c0c3c1c-ff68-4620-890b-968ec316e7e4" />
+
+
+<img width="585" height="66" alt="Screenshot 2025-11-21 at 23 12 17" src="https://github.com/user-attachments/assets/5c70e45f-3edd-4db9-8510-ea54363747b9" />
+
+
+We have the information, including the license ids of two men who have a plate number that have the characters, 'H42W'
+
+Now we need to check if either of those two licence ids belong to either Joe or Jeremy.
+
+
+<img width="697" height="164" alt="Screenshot 2025-11-21 at 23 25 00" src="https://github.com/user-attachments/assets/d6d54e2b-b4ca-4a12-abb1-cb2bcb2f50c1" />
+
+
+<img width="561" height="43" alt="Screenshot 2025-11-21 at 23 26 30" src="https://github.com/user-attachments/assets/1a47e1c9-616c-411d-9da0-bd0470d6281f" />
+
+
+Finally! A main lead! Jeremy Bowers! Now let us view his interview transcript...
+
+
+<img width="603" height="136" alt="Screenshot 2025-11-21 at 23 38 58" src="https://github.com/user-attachments/assets/c12ce8fb-67d5-438f-86b2-dbf1883edd29" />
+
+
+<img width="699" height="71" alt="Screenshot 2025-11-21 at 23 39 51" src="https://github.com/user-attachments/assets/949afb65-7c3a-4355-b4ff-c41a85f0d148" />
+
+
+
+- Now we have to look for the woman who hired Jeremy and we have the following information about her:
+
+1. Her height: either 65" or 67"
+2. Hair color: red
+3. Car Model: Tesla, Model S
+4. Her activities in December 2017: attended 3 SQL Symphony Concerts
+
+
+Let us get the suspect's ID using the Drivers License table.
+
+
+<img width="719" height="187" alt="Screenshot 2025-11-21 at 23 46 55" src="https://github.com/user-attachments/assets/09cc9435-ed95-4cb6-accc-80fcb638457c" />
+
+
+<img width="590" height="89" alt="Screenshot 2025-11-21 at 23 48 01" src="https://github.com/user-attachments/assets/4ff7fe32-73d3-48a2-ba52-8f43356d160b" />
+
+
+We have 3 possible suspects and they all fit the description, as their heights are between 65 and 66"
+
+
+Now, we need to get the names of all 3 suspects, using their license IDs
+
+
+<img width="671" height="165" alt="Screenshot 2025-11-21 at 23 50 18" src="https://github.com/user-attachments/assets/e727239e-497b-45c5-b7e1-cbfb6ed03f18" />
+
+
+<img width="558" height="88" alt="Screenshot 2025-11-21 at 23 51 11" src="https://github.com/user-attachments/assets/a96a65d0-236e-49af-9d02-a8ca1a0f732f" />
+
+
+Next, we will check which of the 3 suspects attended the SQL Symphony Concert in December 2017.
+
+
+<img width="717" height="186" alt="Screenshot 2025-11-21 at 23 55 13" src="https://github.com/user-attachments/assets/4f9a89d0-3944-4129-8455-7a9295bdf0d5" />
+
+
+<img width="363" height="88" alt="Screenshot 2025-11-21 at 23 57 13" src="https://github.com/user-attachments/assets/9cf31309-adae-4df1-943b-b3ea6b6ae584" />
+
+
+
+
+
+
+
+
 
