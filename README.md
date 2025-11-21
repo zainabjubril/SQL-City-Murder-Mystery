@@ -42,6 +42,9 @@ We start by importing python packages such as: numpy and pandas
 <img width="698" height="392" alt="Screenshot 2025-11-21 at 13 04 55" src="https://github.com/user-attachments/assets/fc79d2d0-bf70-46b4-8960-72e92c34017e" />
 
 
+# Exploratory Data Analysis
+
+
 - From the table, we have been able to gather a lead which shows that there were two witnesses at the murder scene in SQL city, now let us find these witnesses!
 
 <img width="598" height="167" alt="Screenshot 2025-11-21 at 13 16 59" src="https://github.com/user-attachments/assets/8286e364-e75b-44a3-b54c-f702222d9632" />
@@ -74,7 +77,7 @@ We start by importing python packages such as: numpy and pandas
 4. The second witness confirmed the killer is indeed a gym member and checked in at the gym on January 9.
 
 
-Let us view the layout of the Get Fit Now Member table.
+- Let us view the layout of the Get Fit Now Member table.
 
 
 <img width="598" height="126" alt="Screenshot 2025-11-21 at 14 50 08" src="https://github.com/user-attachments/assets/3567a488-63ed-4c19-8b3d-9c08c4f5e1d6" />
@@ -109,9 +112,9 @@ So, since we have another information about the suspect, being his plate number,
 <img width="585" height="66" alt="Screenshot 2025-11-21 at 23 12 17" src="https://github.com/user-attachments/assets/5c70e45f-3edd-4db9-8510-ea54363747b9" />
 
 
-We have the information, including the license ids of two men who have a plate number that have the characters, 'H42W'
+- We have the information, including the license ids of two men who have a plate number that have the characters, 'H42W'
 
-Now we need to check if either of those two licence ids belong to either Joe or Jeremy.
+- Now we need to check if either of those two licence ids belong to either Joe or Jeremy.
 
 
 <img width="697" height="164" alt="Screenshot 2025-11-21 at 23 25 00" src="https://github.com/user-attachments/assets/d6d54e2b-b4ca-4a12-abb1-cb2bcb2f50c1" />
@@ -138,7 +141,7 @@ Finally! A main lead! Jeremy Bowers! Now let us view his interview transcript...
 4. Her activities in December 2017: attended 3 SQL Symphony Concerts
 
 
-Let us get the suspect's ID using the Drivers License table.
+- Let us get the suspect's ID using the Drivers License table.
 
 
 <img width="719" height="187" alt="Screenshot 2025-11-21 at 23 46 55" src="https://github.com/user-attachments/assets/09cc9435-ed95-4cb6-accc-80fcb638457c" />
@@ -159,7 +162,7 @@ Now, we need to get the names of all 3 suspects, using their license IDs
 <img width="558" height="88" alt="Screenshot 2025-11-21 at 23 51 11" src="https://github.com/user-attachments/assets/a96a65d0-236e-49af-9d02-a8ca1a0f732f" />
 
 
-Next, we will check which of the 3 suspects attended the SQL Symphony Concert in December 2017.
+- Next, we will check which of the 3 suspects attended the SQL Symphony Concert in December 2017.
 
 
 <img width="717" height="186" alt="Screenshot 2025-11-21 at 23 55 13" src="https://github.com/user-attachments/assets/4f9a89d0-3944-4129-8455-7a9295bdf0d5" />
@@ -168,10 +171,20 @@ Next, we will check which of the 3 suspects attended the SQL Symphony Concert in
 <img width="363" height="88" alt="Screenshot 2025-11-21 at 23 57 13" src="https://github.com/user-attachments/assets/9cf31309-adae-4df1-943b-b3ea6b6ae584" />
 
 
+- We have our culprit! The suspect with the id number-99716, who happens to be Miranda Priestly, attended the SQL Symphony Concert thrice in December 2017, which fits the information given by Jeremy Bowers!!
+
+Now for the final stage, let us get her address and make the arrest!
 
 
 
+<img width="595" height="138" alt="Screenshot 2025-11-22 at 00 03 09" src="https://github.com/user-attachments/assets/6fbb25ce-529f-4a3e-be13-b54feb6b74c9" />
+
+
+<img width="600" height="127" alt="Screenshot 2025-11-22 at 00 08 30" src="https://github.com/user-attachments/assets/136f8f47-0ee9-4e8c-9042-20fa33a27e75" />
+
+
+<img width="560" height="42" alt="Screenshot 2025-11-22 at 00 09 28" src="https://github.com/user-attachments/assets/57e9318e-1d57-4f27-ba23-64d51e2e6684" />
 
 
 
-
+# THANK YOU FOR SOLVING THE SQL CITY MURDER MYSTERY CASE WITH ME!!
