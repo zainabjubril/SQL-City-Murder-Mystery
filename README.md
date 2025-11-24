@@ -1,11 +1,11 @@
 # SQL City Murder Mystery
 
 ## Table of Contents 
--[Installation and setup](installation-and-setup)
--[Exploratory Data Analysis](exploratory-data-analysis)
--[Codes and packages](codes-and-packages)
--[Credits](credits)
--[License](license)
+- [Installation and setup](installation-and-setup)
+- [Exploratory Data Analysis](exploratory-data-analysis)
+- [Codes and packages](codes-and-packages)
+- [Credits](credits)
+- [License](license)
 
 ## Project Overview
 
