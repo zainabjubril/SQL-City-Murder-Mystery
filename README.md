@@ -1,8 +1,13 @@
 # SQL City Murder Mystery
 
 ## Table of Contents 
+-[Installation and setup](installation-and-setup)
+-[Exploratory Data Analysis](exploratory-data-analysis)
+-[Codes and packages](codes-and-packages)
+-[Credits](credits)
+-[License](license)
 
-## Introduction
+## Project Overview
 
 We have a mission to solve the SQL Murder Mystery case!
 
@@ -19,7 +24,7 @@ The database has 9 tables,namely;
 9. solution
 
 
-# Data Cleaning & Preparation
+# Installation and setup
 
 We start by importing python packages such as: numpy and pandas
 
@@ -176,7 +181,6 @@ Now, we need to get the names of all 3 suspects, using their license IDs
 Now for the final stage, let us get her address and make the arrest!
 
 
-
 <img width="595" height="138" alt="Screenshot 2025-11-22 at 00 03 09" src="https://github.com/user-attachments/assets/6fbb25ce-529f-4a3e-be13-b54feb6b74c9" />
 
 
@@ -184,6 +188,19 @@ Now for the final stage, let us get her address and make the arrest!
 
 
 <img width="560" height="42" alt="Screenshot 2025-11-22 at 00 09 28" src="https://github.com/user-attachments/assets/57e9318e-1d57-4f27-ba23-64d51e2e6684" />
+
+
+## Codes and packages
+
+- SQL(sqlite3)
+- Python(NumPy, Pandas)
+
+
+## Credits
+The SQL Murder Mystery was created by Joon Park and Cathy He while they were Knight Lab fellows. See the GitHub repository for more information. Adapted and produced for the web by Joe Germuska. This mystery was inspired by a crime in the neighboring Terminal City. Web-based SQL is made possible by SQL.js SQL query custom web components created and released to the public domain by Zi Chong Kao, creator of Select Star SQL. Detective illustration courtesy of Vectors by Vecteezy Original code for this project is released under the MIT License Original text and other content for this project is released under Creative Commons CC BY-SA 4.0
+
+## License 
+MIT License
 
 
 
